@@ -8,7 +8,8 @@ const SubmitButton = () => {
         backgroundColor: "brown",
       }}
       minH={"56px"}
-      width={"100%"}
+      mx={{ base: 4, md: 0 }} 
+      width={{ base: "90%", md: "100%" }}
       fontSize={"24px"}
       marginTop={"54px"}
       borderRadius={"20px"}
@@ -16,6 +17,7 @@ const SubmitButton = () => {
       fontWeight={"bold"}
       color={"white"}
       type="submit"
+      
     >
       Submit
     </ChakraButton>

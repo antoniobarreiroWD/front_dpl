@@ -1,4 +1,4 @@
-import { Input as ChakraInput } from "@chakra-ui/react"
+import { Input as ChakraInput } from "@chakra-ui/react";
 
 const Input = ({ placeholder, onChange, ...props }) => {
   return (
@@ -13,9 +13,11 @@ const Input = ({ placeholder, onChange, ...props }) => {
       _placeholder={{ color: "#5B6E9D" }} 
       _focus={{ boxShadow: "0px 0px 8px rgba(50, 115, 220, 0.25)" }} 
       placeholder={placeholder}
+      mx={{ base: 4, md: 0 }} 
+      width={{ base: "90%", md: "100%" }} 
       {...props}
     />
   )
 }
 
-export default Input
+export default Input;
