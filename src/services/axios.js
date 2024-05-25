@@ -3,7 +3,7 @@ import axios from 'axios';
 class AxiosConfig {
   constructor(apiPath) {
     this.axios = axios.create({
-      baseURL: `https://project-dpl.onrender.com/api/${apiPath}`,
+      baseURL: `https://legal-medicine.fly.dev/api/${apiPath}`,
     });
 
     
